@@ -1,2 +1,19 @@
-
-/* Your CSS Code here. */
+<style>
+table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px; 
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: left;
+        }
+        .black-background {
+            background-color: black;
+            color: white;
+        }
+        .violet-text {
+            color: violet;
+        }
+    </style>
