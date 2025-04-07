@@ -4,58 +4,69 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Table</title>
-    <link rel="stylesheet" href="style.css" />
+    <style>
+      .black-background {
+        background-color: black;
+        color: white;
+      }
+    </style>
   </head>
   <body>
-    <table  style="width: 100%; height: 100%">	
-	<table>
-    <tr>
-		<td>
-			<table>
-				<tr>
-       <th>Nested Table1</th>
-	 <tr>
-       <ul><li>List item</li>
-		   <li>List item</li>
-		   <li>List item</li>
-	   </ul>
-	   
-	</tr>
-		
-</table>
-		<tr>
-		<td>
-		<table border="">
-			<tr>
-			<th> Nested Table 2</th>
-			</tr>
+    <table>
+      <tr>
+        <td>
+          <table>
             <tr>
-				<td><b>Column 1</b></td>
-				<td><b>Column 2</b></td>
-			</tr>
-			<tr>
-				<td>abc</td>
-				<td>def</td>
-			</tr>
-		</table>
-
-			<table border="">
-           <tr>
-			   <th>Nested Table3</th>
-		   </tr>
-           <tr>
-			   <td>Nested Table</td>
-			   <td>Demo Continued</td>
-		   </tr>	
-			</table>
-		<table border="">
-             <tr>
-				 <th>Nested Table4</th>
-			 </tr>
-			<tr>
-				<td><b>HTML</b></td>
-			</tr>
-		</table>
+              <th>Nested Table1</th>
+            </tr>
+            <tr>
+              <td>
+                <ul>
+                  <li>List item</li>
+                  <li>List item</li>
+                  <li>List item</li>
+                </ul>
+              </td>
+            </tr>
+          </table>
+        </td>
+        <td>
+          <table>
+            <tr>
+              <th>Nested Table 2</th>
+              <th>Column 1</th>
+              <th>Column 2</th>
+            </tr>
+            <tr>
+              <td>abc</td>
+              <td>def</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <table>
+            <tr>
+              <th>Nested Table3</th>
+            </tr>
+            <tr>
+              <td>Nested Table</td>
+              <td>Demo Continued</td>
+            </tr>
+          </table>
+        </td>
+        <td>
+          <table>
+            <tr>
+              <th>Nested Table4</th>
+            </tr>
+            <tr>
+              <td class="black-background">HTML</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
     </table>
   </body>
 </html>
